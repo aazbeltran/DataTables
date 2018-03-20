@@ -1,21 +1,20 @@
 ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// La información general de un ensamblado se controla mediante el siguiente 
+// La información general de un ensamblado se controla mediante el siguiente
 // conjunto de atributos. Cambie estos valores de atributo para modificar la información
 // asociada con un ensamblado.
 [assembly: AssemblyTitle("DT")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Implementación de DataTables para C#")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Alonso Alejandro Zúñiga Beltrán")]
 [assembly: AssemblyProduct("DT")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyTrademark("aazbeltran")]
 [assembly: AssemblyCulture("")]
 
-// Si establece ComVisible en false, los tipos de este ensamblado no estarán visibles 
-// para los componentes COM.  Si es necesario obtener acceso a un tipo en este ensamblado desde 
+// Si establece ComVisible en false, los tipos de este ensamblado no estarán visibles
+// para los componentes COM.  Si es necesario obtener acceso a un tipo en este ensamblado desde
 // COM, establezca el atributo ComVisible en true en este tipo.
 [assembly: ComVisible(false)]
 
