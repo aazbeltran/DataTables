@@ -202,12 +202,12 @@ namespace DT
             foreach (var o in orders)
             {
                 // Se obtiene la columna real a utilizar
-                string column = sanitizeColumn(columns[o.column].name);
+                string column = sanitizeColumn(columns[o.column].data);
                 query_order.AppendFormat("{0}{1} {2}", i > 0 ? "," : "", column, o.dir);
                 i++;
             }
 
-            string order = query_order.ToString() != "" ? query_order.ToString() : sanitizeColumn(columns[0].name) + " ASC";
+            string order = query_order.ToString() != "" ? query_order.ToString() : sanitizeColumn(columns[0].data) + " ASC";
             // Dependiento del motor de base de datos utilizado, realiza el paginado de la manera adecuada
             switch (dbEngine)
             {
